@@ -7,7 +7,7 @@
 
 ### 📓 Latest
 
-- 🧭 Coming soon: "How I Search Without Watching"
+- ❄️ [Wake Up](wakeup.md)
 - 🔍 Coming soon: "BT, Ritual, and the Hidden Maps"
 - 💤 Coming soon: "Why I Still Use an Ancient Mac Downloader"
 
