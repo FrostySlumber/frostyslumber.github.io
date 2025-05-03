@@ -8,6 +8,7 @@
 ### 📓 Latest
 
 - ❄️ [Wake Up](wakeup.md)
+- 📡 [Don't Panic](dont-panic.md)
 - 🔍 Coming soon: "BT, Ritual, and the Hidden Maps"
 - 💤 Coming soon: "Why I Still Use an Ancient Mac Downloader"
 
