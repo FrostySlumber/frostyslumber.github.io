@@ -1,5 +1,6 @@
 # ❄️ FrostySlumber
 > 🛰️ Your last signal before silence.
+
 > *Personal notes & quiet explorations.*  
 > *In a world full of noise, this is my slow log.*
 
