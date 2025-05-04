@@ -16,7 +16,8 @@ Inside this sector:
 ---
 
 ### 📡 Recent Logs  
-🚧 *Logs directory not yet established. Awaiting emotional wave activity...*
+- [Starlog 0505: Frozen Interference](./logs/0505.md)
+
 
 ---
 
