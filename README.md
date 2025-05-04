@@ -15,6 +15,11 @@
 
 ---
 
+### 🛰️ Subsignal Access
+
+- 🌊 [Wave 7S - Emotional Observation Log](./wave7s/index.md)  
+  *Launched from Taurus Sector. Currently in low orbit.*
+
 ### 🧠 About
 
 I’m FrostySlumber. I look for things most people scroll past.
