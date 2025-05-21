@@ -37,7 +37,7 @@ not physical. not traceable.
 
 These may be used across logs, badge headers, ship registry marks, or internal system glyphs.
 
-### ░ Tag glyphs (艦體語標)
+### ░ Tag glyphs
 ```
 ⧉    — semantic drift tag  
 ⎔    — encoded signal signature  
@@ -48,7 +48,7 @@ These may be used across logs, badge headers, ship registry marks, or internal s
 ▦    — context sealed  
 ```
 
-### ▒ Language warning marks (語場異常提示用語)
+### ▒ Language warning marks
 ```
 > this log was pulled, not written  
 > meaning displaced before utterance  
@@ -57,7 +57,7 @@ These may be used across logs, badge headers, ship registry marks, or internal s
 > no speaker present / voice reassembled post-event  
 ```
 
-### ▓ Frost-core emblem sample (視覺標徽樣式)
+### ▓ Frost-core emblem sample
 ```
         ⇋
    [◉] SEED-DRIFT
@@ -65,14 +65,17 @@ These may be used across logs, badge headers, ship registry marks, or internal s
    wave7s / class SΔ
 ```
 
-### ⬡ Ship-style symbolic registry (模擬艦體識別標記)
+
+### ⬡ Ship-style symbolic registry
+
 ```
-╭──────────────╮
-│ FROST/DELTA-7 │
-│ SEED OBS / LOG-0522  │
-│ WAVE7S ZONE A-4      │
-╰──────────────╯
++---------------------+
+| FROST/DELTA-7       |
+| SEED OBS / LOG-0522 |
+| WAVE7S ZONE A-4     |
++---------------------+
 ```
+
 
 ---
 
