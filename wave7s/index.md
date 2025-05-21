@@ -16,9 +16,10 @@ Inside this sector:
 ---
 
 ### 📡 Recent Logs  
+- [Starlog 0522: Seed Drift & Inertial Pull](./logs/20250521_seed_drift_log.md)
 - [Starlog 0505: Frozen Interference](./logs/0505.md)
-
 
 ---
 
 ☕ *Cold cocoa is available. Reheating protocol not guaranteed.*
+
