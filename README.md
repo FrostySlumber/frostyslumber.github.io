@@ -10,8 +10,10 @@
 
 - ❄️ [Wake Up](wakeup.md)
 - 📡 [Don't Panic](dont-panic.md)
+- 🪑🌱 [Reclaim the Corner](20250915_reclaim_the_corner.md)
 - 🔍 Coming soon: "BT, Ritual, and the Hidden Maps"
 - 💤 Coming soon: "Why I Still Use an Ancient Mac Downloader"
+
 
 ---
 
