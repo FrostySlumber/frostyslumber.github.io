@@ -1,140 +1,145 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Actors – Protocolized City</title>
+  <meta charset="UTF-8">
+  <title>Actors</title>
 
-    <!-- LiveCoinWatch Widget Loader -->
-    <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      line-height: 1.6;
+      margin: 40px;
+      max-width: 900px;
+    }
 
-    <style>
-        body {
-            font-family: Georgia, serif;
-            max-width: 1100px;
-            margin: auto;
-            padding: 40px;
-            line-height: 1.6;
-        }
+    h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
 
-        h1, h2 {
-            font-weight: 700;
-        }
+    h2 {
+      margin-top: 40px;
+      font-size: 28px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 6px;
+    }
 
-        .chart-block {
-            margin: 40px 0;
-        }
+    .widget-box {
+      margin: 25px 0;
+      padding: 10px 0;
+      background: #fafafa;
+      border: 1px solid #e5e5e5;
+      border-radius: 8px;
+      text-align: center;
+    }
 
-        .section {
-            margin-top: 60px;
-            border-top: 1px solid #ddd;
-            padding-top: 40px;
-        }
-    </style>
+    iframe {
+      width: 100%;
+      height: 420px;
+      border: none;
+    }
+  </style>
+
+  <!-- LiveCoinWatch Script -->
+  <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
+
+  <!-- TradingView Script -->
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
 </head>
 
 <body>
 
 <h1>Actors</h1>
-<p>Observing behavior on-chain through visible activity patterns.  
-This section tracks **public market activity**, **token flows**, and **user activity** through widgets that require no API key and update live.</p>
+<p>Observing behavior on-chain through visible activity patterns.</p>
 
 
+<!-- --------------------------------------------------------------- -->
+<!-- Top 10 Tokens -->
+<!-- --------------------------------------------------------------- -->
+<h2>Top Actors (Top 10 Tokens)</h2>
 
-<!-- ========================================================= -->
-<!-- 1. LiveCoinWatch Ticker (Global Actor Activity Overview) -->
-<!-- ========================================================= -->
-<div class="section">
-    <h2>Global Activity – Live Ticker (LiveCoinWatch)</h2>
-
-    <div class="chart-block">
-        <div class="livecoinwatch-widget-5"
-             lcw-base="USD"
-             lcw-color-tx="#999999"
-             lcw-marquee-1="coins"
-             lcw-marquee-2="movers"
-             lcw-marquee-items="10">
-        </div>
-    </div>
+<div class="widget-box">
+  <div class="livecoinwatch-widget-3"
+       lcw-base="USD"
+       lcw-d-head="true"
+       lcw-d-name="true"
+       lcw-d-code="true"
+       lcw-d-icon="true"
+       lcw-color-tx="#ffffff"
+       lcw-color-pr="#58c7c5"
+       lcw-color-bg="#1f2434"
+       lcw-border-w="1">
+  </div>
 </div>
 
 
+<!-- --------------------------------------------------------------- -->
+<!-- BTC Baseline -->
+<!-- --------------------------------------------------------------- -->
+<h2>BTC – Behavioral Baseline</h2>
 
-<!-- ========================================================= -->
-<!-- 2. Bitcoin Activity Chart -->
-<!-- ========================================================= -->
-<div class="section">
-    <h2>Bitcoin – Market Overview (LiveCoinWatch Chart)</h2>
-
-    <div class="chart-block">
-        <div class="livecoinwatch-widget-1"
-             lcw-coin="BTC"
-             lcw-base="USD"
-             lcw-period="d"
-             lcw-color-tx="#ffffff"
-             lcw-color-pr="#58c7c5"
-             lcw-color-bg="#1f2434"
-             lcw-border-w="1">
-        </div>
-    </div>
-
-    <p><i>Why here:</i> Bitcoin active trading volume and price movement are widely used as a proxy for global crypto “actor activity.”  
-    While not a perfect substitute for active address metrics (which require paid APIs), it provides a reliable, public indicator of attention and participation.</p>
+<div class="widget-box">
+  <div class="livecoinwatch-widget-1"
+       lcw-coin="BTC"
+       lcw-base="USD"
+       lcw-secondary="BTC"
+       lcw-period="d"
+       lcw-color-tx="#ffffff"
+       lcw-color-pr="#58c7c5"
+       lcw-color-bg="#1f2434"
+       lcw-border-w="1">
+  </div>
 </div>
 
 
+<!-- --------------------------------------------------------------- -->
+<!-- ETH Layer Activity -->
+<!-- --------------------------------------------------------------- -->
+<h2>ETH – Computational Layer Activity</h2>
 
-<!-- ========================================================= -->
-<!-- 3. Ethereum Gas & Activity Replacement (LiveCoinWatch ETH Chart) -->
-<!-- ========================================================= -->
-<div class="section">
-    <h2>Ethereum – Activity & Gas Proxy (LiveCoinWatch Chart)</h2>
-
-    <div class="chart-block">
-        <div class="livecoinwatch-widget-1"
-             lcw-coin="ETH"
-             lcw-base="USD"
-             lcw-period="d"
-             lcw-color-tx="#ffffff"
-             lcw-color-pr="#f39c12"
-             lcw-color-bg="#1f2434"
-             lcw-border-w="1">
-        </div>
-    </div>
-
-    <p><i>Note:</i> Because Glassnode/ETH Gas public widgets cannot be embedded due to CORS and API restrictions,  
-    this ETH chart stands as the best publicly accessible proxy for activity load and ecosystem attention.</p>
+<div class="widget-box">
+  <div class="livecoinwatch-widget-1"
+       lcw-coin="ETH"
+       lcw-base="USD"
+       lcw-secondary="ETH"
+       lcw-period="d"
+       lcw-color-tx="#ffffff"
+       lcw-color-pr="#58c7c5"
+       lcw-color-bg="#1f2434"
+       lcw-border-w="1">
+  </div>
 </div>
 
 
+<!-- --------------------------------------------------------------- -->
+<!-- Optimism TradingView Chart -->
+<!-- --------------------------------------------------------------- -->
+<h2>Optimism – Market Activity (TradingView)</h2>
 
-<!-- ========================================================= -->
-<!-- 4. L2 Actor Activity – TradingView (OP / Layer 2 Example) -->
-<!-- ========================================================= -->
-<div class="section">
-    <h2>Layer-2 Actor Activity – Optimism Market Activity (TradingView)</h2>
+<div class="widget-box">
+  <div id="tv-chart"></div>
 
-    <div class="chart-block">
-        <!-- TradingView Widget -->
-        <iframe 
-            src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_XXXX&symbol=BINANCE%3AOPUSDT&interval=D&hidesidetoolbar=1&symboledit=1&saveimage=0&toolbarbg=rgba(0,%200,%200,%200)&studies=[]&theme=light&style=1&timezone=Etc%2FUTC&studies_overrides={}&overrides={}&enabled_features=[]&disabled_features=[]&locale=en&utm_source=github.io&utm_medium=widget&utm_campaign=chart"
-            width="100%" 
-            height="500" 
-            frameborder="0">
-        </iframe>
-    </div>
-
-    <p><i>Why OP?</i> Optimism represents the expanding Layer-2 user base, reflecting how actors behave within protocolized ecosystems  
-    (reduced fees, different throughput constraints, new governance tokens, etc.).</p>
+  <script type="text/javascript">
+    new TradingView.widget({
+      "width": "100%",
+      "height": 420,
+      "symbol": "BINANCE:OPUSDT",
+      "interval": "D",
+      "timezone": "Etc/UTC",
+      "theme": "light",
+      "style": "1",
+      "locale": "en",
+      "toolbar_bg": "#f1f3f6",
+      "enable_publishing": false,
+      "hide_legend": false,
+      "save_image": false,
+      "container_id": "tv-chart"
+    });
+  </script>
 </div>
 
-
-
-<!-- ========================================================= -->
-<!-- Footer -->
-<!-- ========================================================= -->
-<p><br><br>More actor-level observations will be added later as the Protocolized City pages evolve.</p>
+<p>More actor-level observations will be added later.</p>
 
 </body>
 </html>
-
-
