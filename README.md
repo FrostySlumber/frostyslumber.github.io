@@ -21,6 +21,24 @@
 
 - 🌊 [Wave 7S - Emotional Observation Log](./wave7s/index.md)  
   *Launched from Taurus Sector. Currently in low orbit.*
+---
+
+## 🏙️ Protocolized City — Quiet Notes on Web3’s Institutional Landscape
+
+A new corner in the archive, studying Web3 not as hype but as a system of  
+urban-like formations defined entirely by executable rules (protocols).
+
+### Entry Points
+- 🧩 **Actors** — Visible behaviors, market participants, emergent patterns  
+  https://frostyslumber.github.io/protocolized_city/actors.html
+- 🏛️ **Institutions** — Protocols, DAOs, stablecoins, rule-making structures *(coming soon)*
+- 🌐 **Space** — Layers, chains, bridges, settlement topologies *(coming soon)*
+- 🔁 **Flows** — Movement of value, liquidity migrations, gas dynamics *(coming soon)*
+- ✍️ **Notes & Fragments** — Drafts, observations, structural sketches *(coming soon)*
+
+Full section directory:  
+https://frostyslumber.github.io/protocolized_city/
+
 
 ### 🧠 About
 
