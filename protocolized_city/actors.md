@@ -6,7 +6,15 @@ one of the clearest indicators of real user behavior in the protocolized environ
 
 This data updates automatically.
 
-Optimism – Daily Transactions (Live Data)
-<iframe src="https://l2beat.com/scaling/optimism/embed/chart/transactions" width="100%" height="420" style="border:0;" ></iframe>
+---
+
+## Optimism – Daily Transactions (Live Data)
+
+<iframe
+  src="https://dune.com/embeds/1762178/2914448"
+  height="430"
+  width="100%"
+  style="border: none;"
+></iframe>
 
 More actor-level observations will be added later.
